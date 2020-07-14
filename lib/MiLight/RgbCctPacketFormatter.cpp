@@ -4,7 +4,7 @@
 #include <MiLightCommands.h>
 
 void RgbCctPacketFormatter::modeSpeedDown() {
-  command(RGB_CCT_ON, RGB_CCT_MODE_SPEED_DOWN);
+  command(RGB_CCT_MODE_SPEED_DOWN);
 }
 
 void RgbCctPacketFormatter::modeSpeedUp() {
