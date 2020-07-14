@@ -8,7 +8,7 @@ void RgbCctPacketFormatter::modeSpeedDown() {
 }
 
 void RgbCctPacketFormatter::modeSpeedUp() {
-  command(RGB_CCT_ON, RGB_CCT_MODE_SPEED_UP);
+  command(RGB_CCT_MODE_SPEED_UP);
 }
 
 void RgbCctPacketFormatter::updateMode(uint8_t mode) {
